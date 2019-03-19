@@ -12,7 +12,7 @@ namespace UsersCRUD.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return Redirect("Employee");
         }
 
         public IActionResult Privacy()
